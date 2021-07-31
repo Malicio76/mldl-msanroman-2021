@@ -30,6 +30,7 @@ def readCSV(filePath):
 
 HaasDataFrame = readCSV(r'pesos-hass.csv')
 
-HaasDataFrame = ua.ajustar_data(HaasDataFrame)
+# Comentamos el ajuste para una prueba
+# HaasDataFrame = ua.ajustar_data(HaasDataFrame)
 
 
